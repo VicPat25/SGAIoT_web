@@ -14,9 +14,9 @@ const app = express();
 app.use(morgan("tiny"));
 app.use(express.json());
 app.use(
-  express.urlencoded({
-    extended: true
-  })
+    express.urlencoded({
+        extended: true
+    })
 );
 app.use(cors());
 
@@ -72,6 +72,7 @@ mongoose.connect(uri, options).then(
     console.log("✔ Mongo Successfully Connected!".green);
     console.log("*******************************".green);
     console.log("\n");
+    global.check_mqtt_superuser();
   },
   err => {
     console.log("\n");
