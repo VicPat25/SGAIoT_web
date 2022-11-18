@@ -12,7 +12,7 @@
             <center>Universidad Autonoma de Manizales<br>Grupo investigacion automatica</br></center>
           </td>
           <td>
-            <center>Manual de usuario<br>click here</br></center>
+            <center>Manual de usuario<br><a href="https://docs.google.com/document/d/1j_hZpltpIetF3QqzHe_6yamboJ1u3OiL/edit?usp=sharing&ouid=106340192748678767685&rtpof=true&sd=true">click here</a></br></center>
           </td>
         </tr>
       </table>

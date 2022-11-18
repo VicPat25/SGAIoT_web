@@ -16,7 +16,6 @@
               </el-option>
               <el-option class="text-dark" value="indicator" label="Boolean Indicator INPUT <-">
               </el-option>
-              <el-option class="text-dark" value="map" label="Map INPUT <-"></el-option>
               <el-option class="text-dark" value="switch" label="Switch OUTPUT ->"></el-option>
               <el-option class="text-dark" value="button" label="Button OUTPUT ->"></el-option>
             </el-select>
