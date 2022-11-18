@@ -106,7 +106,7 @@ router.delete("/alarm-rule", checkAuth, async (req, res) => {
 //CREATE ALARM
 async function createAlarmRule(newAlarm) {
   try {
-    const url = "http://localhost:8085/api/v4/rules";
+    const url = "http://" + process.env.EMQX_NODE_HOST + ":8085/api/v4/rules";
 
     // topicExample = userid/did/temp  //msgExample = {value: 20}
     const topic =
