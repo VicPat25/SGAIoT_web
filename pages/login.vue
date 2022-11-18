@@ -29,7 +29,7 @@
           </div>
 
           <div class="pull-right">
-            <h6><a href="#" class="link footer-link">Help</a></h6>
+            <h6><a href="https://docs.google.com/document/d/1j_hZpltpIetF3QqzHe_6yamboJ1u3OiL/edit?usp=sharing&ouid=106340192748678767685&rtpof=true&sd=true" class="link footer-link">Help</a></h6>
           </div>
         </div>
       </card>
