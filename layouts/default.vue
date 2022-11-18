@@ -92,8 +92,8 @@ export default {
       sidebarBackground: "primary", //vue|blue|orange|green|red|primary
       client: null,
       options: {
-        host: process.env.mqtt_host,
-        port: process.env.mqtt_port,
+        host: process.env.MQTT_HOST,
+        port: process.env.MQTT_PORT,
         endpoint: "/mqtt",
         clean: true,
         connectTimeout: 5000,
@@ -208,7 +208,7 @@ export default {
         this.$store.state.auth.userData._id + "/+/+/notif";
 
       const connectUrl =
-        process.env.mqtt_prefix +
+        process.env.MQTT_PREFIX +
         this.options.host +
         ":" +
         this.options.port +
